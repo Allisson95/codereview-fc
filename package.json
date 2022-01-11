@@ -1,0 +1,38 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "App do módulo Padrões e técnicas avançadas com Git e Github do curso FullCycle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allisson95/codereview-fc.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "commit",
+    "signed",
+    "commit",
+    "pr",
+    "code",
+    "review",
+    "semantical",
+    "versioning",
+    "conventional",
+    "commit"
+  ],
+  "author": "Allisson Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Allisson95/codereview-fc/issues"
+  },
+  "homepage": "https://github.com/Allisson95/codereview-fc#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4"
+  }
+}
